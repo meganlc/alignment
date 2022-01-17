@@ -6,7 +6,7 @@ body {
 
 header,
 section {
-    width: 960px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -26,16 +26,32 @@ form {
 
 legend {
     font-size: 24px;
+    padding-bottom: 2rem;
+}
+
+form > input {
+    width: 80%;
+    padding-right: 2rem;
 }
 
 input {
     padding: 5px;
+    align-items: center;
+}
+
+form label {
+    justify-content: space-between;
 }
 
 button {
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+a {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* ************** footer *************** */
